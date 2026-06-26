@@ -11,7 +11,7 @@ This repository contains software and code associated with the publication:
 Contains software and analysis code for the nucleosome resolution mesoscale model.
 
 - Nucleosome resolution chromatin modeling
-- Pretrained model integration from Li et al., *The Journal of Chemical Physics* (2025)
+- ML model to predict methylation contacts, inspired by Li et al., *The Journal of Chemical Physics* (2025)
 - Analysis codes for contact probability, radius of gyration, and clutch analysis
 
 ### `polymer-model/`
