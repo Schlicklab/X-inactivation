@@ -1,0 +1,27 @@
+{
+  "pipeline_version": "residual_rf_v5",
+  "ml_task": "regression",
+  "baseline_mode": "train_stratum_median",
+  "target_mode": "smoothed_oe_residual",
+  "feature_variant": "epi_plus_distance_pairwise_regression",
+  "n_active_features": 74,
+  "diag_bucket_edges": [
+    1,
+    5,
+    10,
+    20,
+    50,
+    100,
+    200,
+    500
+  ],
+  "rf_train_n_jobs": 8,
+  "best_params": {
+    "max_depth": 18,
+    "max_features": 0.5,
+    "max_samples": 0.15,
+    "min_samples_leaf": 5,
+    "min_samples_split": 10,
+    "n_estimators": 300
+  }
+}

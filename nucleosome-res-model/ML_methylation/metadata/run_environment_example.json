@@ -1,0 +1,34 @@
+{
+  "python": "3.13.12 (conda-forge, GCC 14.3.0)",
+  "packages": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.1",
+    "joblib": "1.5.3",
+    "scikit-optimize": "0.10.2",
+    "cooler": "0.10.4",
+    "pyBigWig": "0.3.25"
+  },
+  "hpc_node": {
+    "cpu_model": "Intel Xeon Platinum 8592+",
+    "sockets": 2,
+    "cores_per_socket": 64,
+    "threads_per_core": 1,
+    "total_cpus_on_node": 128,
+    "node_memory": "503 GiB observed by free -h"
+  },
+  "slurm_job": {
+    "job_id": "6202440",
+    "nodes": 1,
+    "allocated_cores": 32,
+    "requested_memory": "1000 GB",
+    "wall_time": "11:35:38",
+    "total_cpu": "2-12:00:15",
+    "max_rss": "163407016 KB (batch step)",
+    "seff_memory_utilized": "155.84 GB",
+    "state": "COMPLETED",
+    "exit_code": "0:0"
+  },
+  "container": "Apptainer/Singularity image based on Ubuntu 22.04.4 with CUDA 12.3.2 and cuDNN 9.0.0; apptainer version 1.5.1-1.el8"
+}

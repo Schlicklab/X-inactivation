@@ -1,0 +1,10 @@
+numpy==2.4.4
+pandas==3.0.2
+scikit-learn==1.8.0
+scipy==1.17.1
+joblib==1.5.3
+scikit-optimize==0.10.2
+cooler==0.10.4
+pyBigWig==0.3.25
+matplotlib
+h5py

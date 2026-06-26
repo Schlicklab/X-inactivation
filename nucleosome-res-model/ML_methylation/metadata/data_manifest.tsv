@@ -1,0 +1,11 @@
+data_role	mark_or_assay	file_or_accession	notes
+training_contact_map	Micro-C	GSE130275_mESC_WT_combined_2.6B.mcool	mESC Micro-C contact map used for training target
+training_feature	H3K27ac	ENCFF230RNU_h3k27ac.bigWig	Active histone mark
+training_feature	H3K4me1	ENCFF282RLA_h3k4me1.bigWig	Active/enhancer-associated histone mark
+training_feature	H3K4me3	ENCFF363LCX_h3k4me3.bigWig	Promoter-associated histone mark
+training_feature	H3K36me3	ENCFF300QWW_h3k36me3.bigWig	Transcription-associated histone mark
+training_feature	H3K9me3	ENCFF549VBE_h3k9me3.bigWig	Repressive histone mark
+training_feature	H3K27me3	ENCFF595SIA_h3k27me3.bigWig	Polycomb-associated histone mark
+training_feature	ATAC	GSE172392_ATAC_seq_Control.bw	Chromatin accessibility track
+training_feature	CTCF	GSE96107_ES_CTCF.bw	CTCF binding track
+prediction_input	allele-specific H3K27me3	See manuscript/Supplementary Table for prediction datasets	Xa/Xi tracks used for Xic prediction
